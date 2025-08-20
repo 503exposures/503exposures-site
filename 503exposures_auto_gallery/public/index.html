@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>503 Exposures — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#"><img src="assets/logo.svg" alt="logo" height="28"><span id="brandName">503 Exposures</span></a>
+    <nav class="nav"><button class="nav-toggle" id="navToggle">☰</button><ul id="navList">
+      <li><a href="#work">Work</a></li><li><a href="#about">About</a></li><li><a href="#contact">Contact</a></li>
+    </ul></nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <p class="kicker" id="heroKicker"></p>
+        <h1 id="heroHeadline"></h1>
+        <p class="lead" id="heroSubhead"></p>
+        <div class="cta-row"><a id="ctaPrimary" class="btn btn-primary" href="#work"></a></div>
+      </div>
+      <div class="hero-visual"><img id="heroImage" alt="hero" src="assets/placeholder.svg"></div>
+    </div>
+  </section>
+
+  <section id="work" class="section">
+    <div class="container">
+      <div class="section-head">
+        <div><p class="kicker">Portfolio</p><h2>Latest uploads</h2></div>
+        <div class="tags" id="filterBar"></div>
+      </div>
+      <div class="grid" id="workGrid"></div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container about-grid">
+      <div class="about-visual"><img id="aboutImage" alt="About" src="assets/placeholder.svg"></div>
+      <div>
+        <p class="kicker">Story</p><h2>About <span id="aboutName"></span></h2>
+        <p class="lead" id="aboutBlurb"></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <p class="kicker">Contact</p><h2>Let's create together</h2>
+      <ul class="contact-list">
+        <li>Email: <a id="emailLink" href="#"></a></li>
+        <li>Phone: <a id="phoneLink" href="#"></a></li>
+        <li id="locationText"></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container"><p>© <span id="year"></span> 503 Exposures</p></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

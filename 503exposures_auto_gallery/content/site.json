@@ -1,0 +1,29 @@
+{
+  "site": {
+    "name": "503 Exposures"
+  },
+  "hero": {
+    "kicker": "Sunshine Coast \u00b7 Nepal",
+    "headline": "Modern, elegant visuals for people & brands",
+    "subhead": "Cinematic photo & video with minimal design, natural light, and timeless color.",
+    "ctaPrimary": {
+      "label": "View Work",
+      "href": "#work"
+    },
+    "ctaSecondary": {
+      "label": "Get a Quote",
+      "href": "#contact"
+    },
+    "heroImage": "assets/placeholder.svg"
+  },
+  "about": {
+    "name": "Sanjeev Upreti",
+    "blurb": "Photographer & filmmaker. I blend minimal design with natural light to create elegant visuals.",
+    "image": "assets/placeholder.svg"
+  },
+  "contact": {
+    "email": "hello@503exposures.com",
+    "phone": "+61 400 000 000",
+    "location": "Sunshine Coast \u00b7 Jhapa"
+  }
+}
